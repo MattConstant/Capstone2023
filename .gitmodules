@@ -1,0 +1,4 @@
+[submodule "frontend"]
+	path = web/penguino-front
+	url = git@github.com:sxxxi/penguino-front.git
+	branch = main
