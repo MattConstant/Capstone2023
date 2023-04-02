@@ -1,0 +1,19 @@
+services:
+  backend:
+    build: 
+      context: PenguinoBackend 
+    ports: 
+      - 8080:8080
+    networks:
+      - back-net
+  frontend:
+    build:
+      context: penguino-front 
+    ports:
+      - 3000:3000
+    networks:
+      - front-net
+
+networks:
+  front-net:
+  back-net:
