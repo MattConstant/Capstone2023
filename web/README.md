@@ -2,6 +2,7 @@
 ## Deploying web services from git pull
 ```bash
 git pull origin main
+cd web
 
 # Pull services from the submodule.
 git submodule update --init penguino-front
