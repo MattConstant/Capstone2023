@@ -2,3 +2,7 @@
 	path = web/penguino-front
 	url = git@github.com:sxxxi/penguino-front.git
 	branch = main
+[submodule "penguino-backend"]
+	path = web/PenguinoBackend
+	url = git@github.com:Jecielrb/PenguinoBackend.git
+	branch = main
