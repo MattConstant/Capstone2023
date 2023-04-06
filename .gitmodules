@@ -6,3 +6,7 @@
 	path = web/PenguinoBackend
 	url = git@github.com:Jecielrb/PenguinoBackend.git
 	branch = main
+[submodule "penguino-app"]
+	path = penguino-local/penguino-app
+	url = git@github.com:sxxxi/penguino-app.git
+	branch = main
