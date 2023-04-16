@@ -4,8 +4,12 @@
 git pull origin main
 cd web
 
-# Pull services from the submodule.
-git submodule update --init penguino-front
+# Checkout to the latest main branch of the sumbodule before updating
+cd PenguinoBackend
+git pull origin main
+git checkout main
+
+# This only updates the submodule in the archived branch
 git submodule update --init PenguinoBackend
 
 # deploy all services
