@@ -6,3 +6,7 @@
 	path = penguino-local/penguino-app
 	url = git@github.com:sxxxi/penguino-app.git
 	branch = main
+[submodule "android"]
+	path = android
+	url = git@github.com:sxxxi/penguino-app.git
+	branch = main
