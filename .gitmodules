@@ -9,4 +9,3 @@
 [submodule "penguino-c"]
 	path = penguino-c
 	url = git@github.com:sxxxi/penguino-c.git
-	branch = main
